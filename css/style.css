@@ -30,3 +30,24 @@
 #main-navbar ul li a:hover {
   background-color: #000;
 }
+#sidebar {
+  background-color: red;
+  height: 100%;
+  width: 20%;
+  right: 0%;
+  position: fixed;
+}
+#sidebar ul li a {
+  color: #fff;
+  padding: 15px 0;
+  text-decoration: none;
+  display: block;
+}
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+#sidebar ul li a:hover {
+  background-color: #000;
+}
