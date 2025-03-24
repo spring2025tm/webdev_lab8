@@ -1,11 +1,11 @@
 #main-navbar {
   background-color: blue;
-  width: 100%;
   overflow: hidden;
 }
-#navbar-container ul {
+#navbar-container {
   width: 100%;
   position: relative;
+  float: left;
 }
 #main-navbar ul {
   list-style-type:none;
@@ -31,10 +31,10 @@
   background-color: #000;
 }
 #sidebar {
+  right: 0%;
   background-color: red;
   height: 100%;
   width: 20%;
-  right: 0%;
   position: fixed;
 }
 #sidebar ul li a {
